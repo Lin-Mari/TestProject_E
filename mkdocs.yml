@@ -1,8 +1,15 @@
 site_name: Education-Centre
 site_url: "https://github.com/EliVolsch/Education-Centre"
 docs_dir: ./docs/src
+site_dir: ./docs/site
+repo_name: "Learn-Centre"
+repo_url: "https://github.com/EliVolsch/Education-Centre"
+edit_uri: "https://github.com/EliVolsch/Education-Centre/blob/main/docs/"
 theme:
   name: material
+  direction: ltr
+  include_search_page: true
+  search_index_only: true
   features:
     - navigation.tabs
     - navigation.sections
@@ -53,6 +60,26 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+     
+ plugins:
+ 	- mkdocs-video
+ 	
+nav:
+  - Home:
+      - /index.md # short intro on project here
+  - Learning Materials:
+      - /explore.md # this will be menu file with all courses
+      - Figma: /figma/index.md
+      - Mkdocs Materials: /mkdocs/index.md
+  - Contribute:
+      - index.md #Why should people contribute to this platform? Link contributors gh handles
+      - How to contribute: contribute.md
+      - Contribution Guidelines: guidelines.md
+  - About:
+      - /index.md
+      - Terms of use: about/terms.md
+      - License: about/license.md
+  - Help: help.md
 
 copyright: |
   &copy; 2023 <a href="https://github.com/EliVolsch"  target="_blank" rel="noopener">Eli Volschenk</a>
