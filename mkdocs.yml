@@ -1,5 +1,6 @@
 site_name: Education-Centre
 site_url: "https://github.com/EliVolsch/Education-Centre"
+docs_dir: ./docs/src
 theme:
   name: material
   features:
