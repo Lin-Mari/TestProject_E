@@ -40,4 +40,4 @@ This collection of figma tools is designed to serve as quick reference guide for
 | [![Image](../image/link.png)](#)	| [Branching & Merging]()    | This is what i entend the discrip tion to be. <br>nothing more than this really |
 
 
-![type:video](https://www.youtube.com/embed/LXb3EKWsInQ)
+<!-- ![type:video](https://www.youtube.com/embed/LXb3EKWsInQ) -->
